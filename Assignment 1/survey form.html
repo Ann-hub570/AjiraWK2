@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PinkViolets Customer Survey</title>
+</head>
+<body>
+    <h1>PinkViolets Survey Form</h1>
+    <!--Create Form-->
+    <form id="form">
+        <!--Details-->
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <!--Input Type Text-->
+            <input type="text" id="name" placeholder="Enter your name"/>
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <!--Input Type Email-->
+            <input type="email" id="email" placeholder="Enter your email"/>
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">1.Which option best describes you?</label>
+            <!--Dropdown Options-->
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label>2.Would you recommend PinkViolets to a friend?</label>
+            <!--Input Type Radio Button-->
+            <label for="recommend-1">
+                <input type="radio" id="recommend-1" name="recommend">Yes</label>
+            </label>
+            <label for="recommend-2">
+                <input type="radio" id="recommend-2" name="recommend">No</label>
+            </label>
+            <label for="recommend-3">
+                <input type="radio" id="recommend-3" name="recommend">Maybe</label>
+            </label>
+        </div>
+        <div class="form-control">
+            <label>3.How often do you purchase items from PinkViolets?</label>
+            <!--Input Type Checkbox-->
+            <label for="inp-1">
+                <input type="checkbox" name="inp-1">Very Often</input>
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp-2">Slightly Often</input>
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp-3">rarely</input>
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp-4">Never</input>
+            </label>
+        </div>
+        <div class="form-control">
+            <label>4.Which category of items do you purchase the most from PinkViolets?</label>
+            <!--Input Type Checkbox-->
+            <label for="inp-1">
+                <input type="checkbox" name="inp-1">Electronics</input>
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp-2">Decor</input>
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp-3">Jewelry</input>
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp-4">Sourvenirs</input>
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp-5">Flowers and Cards</input>
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp-6">Sweets and Chocolates</input>
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="Suggestions">5.What products would you wish that PinkViolets adds?</label>
+            <!--multi-line text input control-->
+            <textarea name="Suggestions" id="suggestions" placeholder="Enter your suggestions here"></textarea>
+        </div>
+        <div class="form-control">
+            <label>6.Would you shop at our physical store if we had one?</label>
+            <!--Input Type Radio Button-->
+            <label for="option-1">
+                <input type="radio" id="option-1">Yes</label>
+            </label>
+            <label for="Option-2">
+                <input type="radio" id="option-2">No</label>
+            </label>
+            <label for="Option-3">
+                <input type="radio" id="Option-3">Maybe</label>
+            </label>
+        </div>
+        <div class="form-control">
+            <label>7.On a scale of 1-5, how would you rate the customer experience at PinkViolets?</label>
+            <!--Input Type Checkbox-->
+            <label for="inp-1">
+                <input type="checkbox" name="inp">1</input></label>
+            <label for="inp-2">
+                    <input type="checkbox" name="inp-2">2</input></label>
+            <label for="inp-3">
+                    <input type="checkbox" name="inp-3">3</input></label>
+            <label for="inp-4">
+                    <input type="checkbox" name="inp-4">4</input></label>
+            <label for="inp-5">
+                    <input type="checkbox" name="inp-5">5</input></label>   
+            </label>
+        <div class="form-control">
+            <label for="comment">8.Any other comment?</label>
+            <!--multi-line text input control-->
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+        </div>    
+        <!--multi-line text input control-->
+        <button type="submit" value="submit">Submit</button></form>
+</body>
+<body style="background-color: pink;"></body>
+</html>
